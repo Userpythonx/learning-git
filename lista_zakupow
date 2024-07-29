@@ -15,5 +15,7 @@ for value in lista_zakupow.values():
     
 print(f"W sumie kupuje {counter_of_words} produktow")
 
+print("'Hiszpanska inkwizycja' to najlepszy skecz Monty Pythona")
+
 
 
