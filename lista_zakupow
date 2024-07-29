@@ -1,0 +1,19 @@
+lista_zakupow={"piekarnia": "chleb bulki paczek",
+               "warzywniak": "marchew seler rukola"}
+print(lista_zakupow)
+for sklep, produkt in lista_zakupow.items():
+    print(f"Ide do {sklep} i kupuje tam {produkt}")
+print("")
+
+new_lista_zakupow={key.title():value.title() for key, value in lista_zakupow.items()}
+print(new_lista_zakupow)
+
+counter_of_words=0
+for value in lista_zakupow.values():
+    words=value.split(" ")
+    counter_of_words+=len(words)
+    
+print(f"W sumie kupuje {counter_of_words} produktow")
+
+
+
